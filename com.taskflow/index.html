@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Lista de Tareas</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9741/9741158.png" type="image/x-icon">
+    <link rel="stylesheet" href="Fonts/IndexFontsCaviarDreams.css">
+    <link rel="stylesheet" href="Fonts/IndexFontsRedHands.css">
+    <link rel="stylesheet" href="Fonts/IndexFontsGeorgeCoffee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script>
+
+        const Styles = document.createElement('link');
+        Styles.type = "text/css";
+        Styles.rel = "stylesheet";
+        Styles.href = "Vendor/com.config.css";
+        document.head.appendChild(Styles)
+
+    </script>
+
+</head>
+<body>
+
+    <container class="Left">
+
+        <div class="Logo"> <p>TaskFlow</p> </div>
+
+        <div class="Clock">
+
+            <div class="Digit First">1</div>
+            <div class="Digit Second">0</div>
+            <div class="Digit Points">:</div>
+            <div class="Digit Third">0</div>
+            <div class="Digit Quarter">7</div>
+
+            <div class="Timer">p.m</div>
+
+            <div class="WriteFullDate">Martes, 29 de Noviembre</div>
+
+        </div>
+
+    </container>
+
+
+    <container class="Right">
+
+        <div class="Tasks">
+
+            <t>Cosas por hacer</t>
+            <p class="WelcomeText">¡Hola!</p>
+            <div class="ProfilePhoto"></div>
+            <div class="TaskCounter">0/0</div>
+
+            <div class="NoTasks" style="display:flex;">
+
+                <div class="Demostration">
+
+                    <div class="Info"> <i class="fi fi-rr-list-check"></i> <in>Parece que no tienes tareas para hacer hoy</in> </div>
+                    <div class="Action"> <i class="fi fi-rr-attribution-pencil"></i> <in>Agrega una nueva tarea</in> </div>
+
+                </div>
+
+            </div>
+
+            <div class="CurrentTasks" style="display: block;">
+
+                </div>
+
+                <div class="AddTask">
+
+                    <div class="GetTask">
+                        
+                        <input type="text" placeholder="¿Qué hay que hacer hoy?" class="GetTaskDetails">
+                        <div class="SaveTask">Agregar</div>
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        </div>
+
+    </container>
+    
+</body>
+</html>
+
+<script src="Vendor/com.config.js"></script>
+
